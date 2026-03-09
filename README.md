@@ -4,12 +4,19 @@ The Luciano Times è una web application sviluppata con React che replica lo sti
 
 L'applicazione recupera articoli reali tramite la New York Times API e li visualizza in un layout moderno in stile giornale digitale, con articoli in evidenza, sezioni tematiche e una barra di Breaking News dinamica.
 
-## Screenshot
-
-![Homepage](./screenshot.png)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![NYT API](https://img.shields.io/badge/API-New%20York%20Times-red?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
 
 ## Live Demo
-🔗 https://progetto-react-di-luciano-pacini.vercel.app/
+🚀 https://progetto-react-di-luciano-pacini.vercel.app/
+
+## Screenshot
+
+<p align="center">
+  <img src="./screenshot.png" width="900">
+</p>
 
 ## Funzionalità principali
 
