@@ -6,7 +6,7 @@ L'applicazione recupera articoli reali tramite la New York Times API e li visual
 
 ## Screenshot
 
-![The Luciano Times homepage displaying a newspaper-style layout with a prominent hero article at the top, breaking news ticker banner, and a grid of article cards below organized in columns. The design features a clean, modern interface with a dark header navigation bar, responsive grid layout, and clickable article headlines linking to full article pages.](assets/screenshot.png)
+![Homepage](./screenshot.png)
 
 ## Funzionalità principali
 
