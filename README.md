@@ -4,6 +4,10 @@ The Luciano Times è una web application sviluppata con React che replica lo sti
 
 L'applicazione recupera articoli reali tramite la New York Times API e li visualizza in un layout moderno in stile giornale digitale, con articoli in evidenza, sezioni tematiche e una barra di Breaking News dinamica.
 
+## Screenshot
+
+![The Luciano Times homepage displaying a newspaper-style layout with a prominent hero article at the top, breaking news ticker banner, and a grid of article cards below organized in columns. The design features a clean, modern interface with a dark header navigation bar, responsive grid layout, and clickable article headlines linking to full article pages.](assets/screenshot.png)
+
 ## Funzionalità principali
 
 Recupero delle notizie tramite New York Times API
@@ -37,36 +41,30 @@ Responsive design con Media Queries
 ## Struttura del progetto
 
 src/
-
-components/
-
-Navbar
-
-BreakingNews
-
-ArticleCard
-
-pages/
-
-Home
-
-ArticleDetail
-
-services/
-
-nytService (gestione chiamate API)
+│
+├─ components/
+│   ├─ Navbar
+│   ├─ BreakingNews
+│   ├─ ArticleCard
+│
+├─ pages/
+│   ├─ Home
+│   └─ ArticleDetail
+│
+├─ services/
+│   └─ nytService (gestione chiamate API)
 
 ## Installazione
 
 Clonare il repository:
 
 ```bash
-git clone https://github.com/lucianopacini/nyt-react-news-app.git
+git clone https://github.com/lucianopacini/progetto-react-di-luciano-pacini.git
 ```
 
 Entrare nella cartella del progetto:
 
-cd nyt-react-news-app
+cd progetto-react-di-luciano-pacini
 
 Installare le dipendenze:
 
