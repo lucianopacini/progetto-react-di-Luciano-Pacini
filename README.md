@@ -8,6 +8,9 @@ L'applicazione recupera articoli reali tramite la New York Times API e li visual
 
 ![Homepage](./screenshot.png)
 
+## Live Demo
+🔗 https://progetto-react-di-luciano-pacini.vercel.app/
+
 ## Funzionalità principali
 
 Recupero delle notizie tramite New York Times API
