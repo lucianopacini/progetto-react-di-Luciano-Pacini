@@ -16,7 +16,7 @@ export default function Home({ section }) {
                 const filtered = data.filter(
                     (article) => article.multimedia && article.multimedia.length > 0
                 );
-                setArticles(filtered.slice(0, 28));
+                setArticles(filtered.slice(0, 24));
             } catch (err) {
                 console.error(err);
                 setError(err.message);
