@@ -1,0 +1,78 @@
+/* ========================== */
+/*          NAVBAR            */
+/* ========================== */
+
+.navbar {
+    background-color: white;
+    text-align: center;
+    border-bottom: 3px double #000;
+    padding-top: 10px;
+}
+
+/* Logo */
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Menu */
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu a {
+    font-family: 'Georgia', serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.2s ease;
+
+    position: relative;
+
+}
+
+.navbar-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.navbar-menu a:hover::after {
+    width: 100%;
+}
+
+.navbar-menu a:hover {
+    opacity: 0.6;
+}
+
+.navbar-menu a.active {
+    color: black;
+    /* un colore a contrasto bello evidente */
+    font-weight: 700;
+    border-bottom: 2px solid #d23669;
+}
+
+.date-today {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
