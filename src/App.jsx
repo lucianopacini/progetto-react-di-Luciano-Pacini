@@ -9,8 +9,15 @@ import BreakingNews from "./components/BreakingNews";
 export default function App() {
   const [section, setSection] = useState("home");
 
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <>
+    <div className={darkMode ? "dark" : "light"}>
+
+      <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
+        {darkMode ? "🌙" : "☀️"}
+      </button>
+
       <Navbar onSectionChange={setSection} activeSection={section} />
       <BreakingNews />
 
@@ -23,6 +30,6 @@ export default function App() {
       </Routes>
 
       <Footer />
-    </>
+    </div>
   );
 }

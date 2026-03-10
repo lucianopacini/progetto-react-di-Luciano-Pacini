@@ -67,6 +67,10 @@
     padding: 0px 10px;
 }
 
+.dark .hero-content h1 {
+    color: black;
+}
+
 @media (max-width: 1024px) {
     .hero-grid {
         grid-template-columns: 1fr;

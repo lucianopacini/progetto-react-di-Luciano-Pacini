@@ -46,6 +46,7 @@ export default function Home({ section }) {
     const gridArticles = section === "home" ? articles.slice(4) : articles;
 
     return (
+
         <div className="page-transition">
             <h2 className="section-title">{(section || "HOME").toUpperCase()}</h2>
 

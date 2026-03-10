@@ -26,6 +26,19 @@ body {
   }
 }
 
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+
+
+
 /* ========================== */
 /*        TITOLI PRINCIPALI    */
 /* ========================== */
@@ -175,6 +188,11 @@ h2 {
   margin-bottom: 10px;
   padding: 0 10px;
   color: #000;
+}
+
+.dark .card h3,
+.dark .side-card h4 {
+  color: black;
 }
 
 /* ========================== */
