@@ -9,16 +9,18 @@ L'applicazione recupera articoli reali tramite la New York Times API e li visual
 ![NYT API](https://img.shields.io/badge/API-New%20York%20Times-red?style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
 
-🚀 ## Live Demo
+## Live Demo 🚀
 https://progetto-react-di-luciano-pacini.vercel.app/
 
-🖼 ## Screenshot
+
+## Screenshot 💻
 
 <p align="center">
   <img src="./screenshot.png" width="900">
 </p>
 
-✨ ## Funzionalità principali
+
+## Funzionalità principali ✨
 
 - Recupero delle notizie tramite New York Times API
 - Layout in stile giornale con Hero article e griglia di articoli
@@ -30,7 +32,8 @@ https://progetto-react-di-luciano-pacini.vercel.app/
 - Design responsive per desktop, tablet e mobile
 - Architettura a componenti con React
 
-🛠 ## Tecnologie utilizzate
+
+## Tecnologie utilizzate 🛠
 
 - React
 
@@ -44,7 +47,8 @@ https://progetto-react-di-luciano-pacini.vercel.app/
 
 - Responsive design con Media Queries
 
-📂 ## Struttura del progetto
+
+## Struttura del progetto 📂 
 
 src/
 │
@@ -60,7 +64,8 @@ src/
 ├─ services/
 │   └─ nytService (gestione chiamate API)
 
-⚙️ ## Installazione
+
+## Installazione ⚙️ 
 
 Clonare il repository:
 
@@ -84,7 +89,8 @@ L'applicazione sarà disponibile su:
 
 http://localhost:5173/
 
-🌐 ## API
+
+## API 🌐
 
 Questo progetto utilizza la New York Times Top Stories API.
 
@@ -106,7 +112,8 @@ Il layout è adattabile a diverse dimensioni dello schermo:
 
 - Mobile: layout a colonna singola
 
-🚧 ## Possibili miglioramenti futuri
+
+## Possibili miglioramenti futuri 🚧 
 
 - Barra di ricerca degli articoli
 
@@ -116,7 +123,8 @@ Il layout è adattabile a diverse dimensioni dello schermo:
 
 - Aggiunta di nuove sezioni di notizie
 
-👨‍💻 ## Autore
+
+## Autore 👨‍💻
 
 Luciano Pacini
 
