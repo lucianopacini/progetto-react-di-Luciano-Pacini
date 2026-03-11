@@ -4,7 +4,7 @@ import "./Footer.css"; // separiamo lo stile
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>© 2026 The New York Times Inspired</p>
+      <p>© 2026 The Luciano Times</p>
       <div className="footer-links">
         <a href="#">Contact Us</a>
         <a href="#">Accessibility</a>

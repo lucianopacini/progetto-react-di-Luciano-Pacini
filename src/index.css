@@ -183,9 +183,9 @@ h2 {
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
   margin-bottom: 10px;
   padding: 0 10px;
   color: #000;
@@ -246,10 +246,20 @@ a:hover {
 /* ========================== */
 /*        RESPONSIVE           */
 /* ========================== */
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+  .card {
+    height: 480px;
+  }
+
+}
+
 @media (max-width: 1000px) {
   .articles-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
 }
 
 @media (max-width: 600px) {

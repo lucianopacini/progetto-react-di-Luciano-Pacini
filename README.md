@@ -9,46 +9,42 @@ L'applicazione recupera articoli reali tramite la New York Times API e li visual
 ![NYT API](https://img.shields.io/badge/API-New%20York%20Times-red?style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
 
-## Live Demo
-🚀 https://progetto-react-di-luciano-pacini.vercel.app/
+🚀 ## Live Demo
+https://progetto-react-di-luciano-pacini.vercel.app/
 
-## Screenshot
+🖼 ## Screenshot
 
 <p align="center">
   <img src="./screenshot.png" width="900">
 </p>
 
-## Funzionalità principali
+✨ ## Funzionalità principali
 
-Recupero delle notizie tramite New York Times API
+- Recupero delle notizie tramite New York Times API
+- Layout in stile giornale con Hero article e griglia di articoli
+- Breaking News ticker con titoli scorrevoli
+- Titoli delle breaking news cliccabili che portano direttamente all'articolo originale sul NYT
+- Navbar con navigazione tra le sezioni Home, World e Technology
+- Modalità Dark / Light (versione base implementata)
+- Pagina di dettaglio dell'articolo con titolo, immagine e descrizione
+- Design responsive per desktop, tablet e mobile
+- Architettura a componenti con React
 
-Layout in stile giornale con Hero article e griglia di articoli
+🛠 ## Tecnologie utilizzate
 
-Breaking News ticker con titoli scorrevoli
+- React
 
-Titoli delle breaking news cliccabili che portano direttamente all'articolo originale sul NYT
+- React Router
 
-Pagina di dettaglio dell'articolo con titolo, immagine e descrizione
+- React Hooks (useState, useEffect)
 
-Design responsive per desktop, tablet e mobile
+- New York Times API
 
-Architettura a componenti con React
+- CSS Grid e Flexbox
 
-## Tecnologie utilizzate
+- Responsive design con Media Queries
 
-React
-
-React Router
-
-React Hooks (useState, useEffect)
-
-New York Times API
-
-CSS Grid e Flexbox
-
-Responsive design con Media Queries
-
-## Struttura del progetto
+📂 ## Struttura del progetto
 
 src/
 │
@@ -64,7 +60,7 @@ src/
 ├─ services/
 │   └─ nytService (gestione chiamate API)
 
-## Installazione
+⚙️ ## Installazione
 
 Clonare il repository:
 
@@ -86,9 +82,9 @@ npm start
 
 L'applicazione sarà disponibile su:
 
-http://localhost:3000
+http://localhost:5173/
 
-## API
+🌐 ## API
 
 Questo progetto utilizza la New York Times Top Stories API.
 
@@ -100,36 +96,31 @@ Creare un file .env nella root del progetto con la seguente variabile:
 
 VITE_NYT_API_KEY=la_tua_api_key
 
-## Responsive Design
+📱 ## Responsive Design
 
 Il layout è adattabile a diverse dimensioni dello schermo:
 
-Desktop: layout completo in stile giornale
+- Desktop: layout completo in stile giornale
 
-Tablet: griglia ridotta
+- Tablet: griglia ridotta
 
-Mobile: layout a colonna singola
+- Mobile: layout a colonna singola
 
-## Possibili miglioramenti futuri
+🚧 ## Possibili miglioramenti futuri
 
-Barra di ricerca degli articoli
+- Barra di ricerca degli articoli
 
-Modalità Dark / Light
+- Migliore gestione degli stati di caricamento
 
-Migliore gestione degli stati di caricamento
+- Gestione degli errori API
 
-Gestione degli errori API
+- Aggiunta di nuove sezioni di notizie
 
-Aggiunta di nuove sezioni di notizie
-
-## Autore
+👨‍💻 ## Autore
 
 Luciano Pacini
 
-Questo progetto è stato sviluppato come parte del mio percorso di studio di React e come progetto per il mio portfolio di sviluppo web.
+Questo progetto è stato sviluppato come parte del mio percorso di rinascita e di studio di React e come progetto per il mio portfolio di sviluppo web.
 
-## Licenza
-
-Questo progetto è stato realizzato a scopo didattico.
 
 

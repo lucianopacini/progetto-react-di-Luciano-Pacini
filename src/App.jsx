@@ -12,6 +12,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
+
     <div className={darkMode ? "dark" : "light"}>
 
       <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
@@ -31,5 +32,6 @@ export default function App() {
 
       <Footer />
     </div>
+
   );
 }
